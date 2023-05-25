@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { TiArrowForward } from "react-icons/Ti";
+
 
 function MoneyChanger() {
   return (
@@ -14,7 +14,7 @@ function MoneyChanger() {
       <p className="text-sm mt-1 font-medium text-textDark">Sep 2010 - 2014</p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1"><TiArrowForward /></span>
+          <span className="text-textGreen mt-1"></span>
           My role is essential in facilitating effective communication and coordination between money changer establishments and external entities.
         </li>
       </ul>

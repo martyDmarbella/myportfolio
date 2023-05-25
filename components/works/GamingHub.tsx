@@ -20,5 +20,4 @@ function GamingHub() {
     </motion.div>
   );
 }
-
 export default GamingHub;
