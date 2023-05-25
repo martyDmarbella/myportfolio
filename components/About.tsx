@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import { AiFillHtml5 } from "react-icons/ai";
-import { IoLogoCss3 } from "react-icons/Io";
-import { SiBootstrap, SiPhp, SiPreact, SiLaravel, SiJavascript, SiNextdotjs } from "react-icons/Si";
+import { IoLogoCss3 } from "react-icons/io";
+import { SiBootstrap, SiPhp, SiPreact, SiLaravel, SiJavascript, SiNextdotjs } from "react-icons/si";
 import Image from 'next/image';
 import profileImg from '../public/assets/images/me.png';
 
@@ -25,7 +25,7 @@ function About() {
                     </p>
                     <p>
                         Despite the fact that I have no prior experience working as a web developer,
-                        I am keen to learn more and advance my knowledge in this area. I'm confident
+                        I am keen to learn more and advance my knowledge in this area. I&apos;m confident
                         that my love of technology, along with my willpower and quick learning curve,
                         will help me succeed in this position.
                     </p>
@@ -67,6 +67,6 @@ function About() {
             </div>
         </section>
     );
-};
+}
 
 export default About;
