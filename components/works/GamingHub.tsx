@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { TiArrowForward } from "react-icons/Ti";
+
 
 function GamingHub() {
   return (
@@ -14,7 +14,7 @@ function GamingHub() {
       <p className="text-sm mt-1 font-medium text-textDark">Julk 2014 - Jan 2020</p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1"><TiArrowForward /></span>
+          <span className="text-textGreen mt-1"></span>
           As a former owner of a computer shop, It&rsquo;s a great experience owning one. I have many players in the shop. There ain&rsquo;t no age gap; we all just have fun playing games. I also manage a team that competes in League of Legends Tournaments here in our town.
         </li>
       </ul>
