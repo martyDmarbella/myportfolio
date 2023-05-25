@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-
 function GamingHub() {
   return (
     <motion.div
