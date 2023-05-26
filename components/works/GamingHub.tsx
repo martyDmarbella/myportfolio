@@ -10,7 +10,7 @@ function GamingHub() {
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">Owner
         <span className="text-textGreen tracking-wide">@GamingHub</span>
       </h3>
-      <p className="text-sm mt-1 font-medium text-textDark">Julk 2014 - Jan 2020</p>
+      <p className="text-sm mt-1 font-medium text-textDark">Jul 2014 - Jan 2020</p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1"></span>
