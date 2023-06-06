@@ -3,7 +3,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiBootstrap, SiPhp, SiPreact, SiLaravel, SiJavascript, SiNextdotjs } from "react-icons/si";
 import Image from 'next/image';
-import profileImg from '../public/assets/images/aboutme.jpg';
+import aboutme from '../public/assets/images/aboutme.jpg';
 
 function About() {
     return (
@@ -55,7 +55,7 @@ function About() {
                 <div className="w-full lgl:w-1/3 h-80 relative group">
                     <div className="absolute w-full h-80 -right-6 -top-6 rounded-lg">
                         <div className="w-full h-full relative z-20 flex pr-6 lgl:pr-0">
-                            <Image className="rounded-lg h-full object-cover" src={profileImg} alt="profileImage" />
+                            <Image className="rounded-lg h-full object-cover" src={aboutme} alt="profileImage" />
                         </div>
                     </div>
                 </div>
