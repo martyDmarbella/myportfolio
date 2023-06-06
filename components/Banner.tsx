@@ -11,7 +11,8 @@ function Banner() {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="md:order-2 ml-4 md:ml-20 xl:ml-40 ">
+          className="md:order-2 ml-4 md:ml-20 xl:ml-40 "
+        >
           <Image className="rounded-lg h-full object-cover border border-textGreen" src={profileImage} alt="profileImage" width={300} height={300} />
         </motion.div>
         <div className="md:order-1">
