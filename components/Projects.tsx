@@ -56,7 +56,7 @@ function Projects() {
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
-           
+
             <h3 className="text-2xl font-bold">Print Studio</h3>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               A website for people that need innovative and high-quality printing solutions with a vast selection of high-quality products.
@@ -88,7 +88,7 @@ function Projects() {
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
-            
+
             <h3 className="text-2xl font-bold">Enchanting Affairs</h3>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               A website for managing and organizing events, providing users with event information, registration, and other related features.
