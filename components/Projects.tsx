@@ -6,7 +6,7 @@ import Event from "../public/assets/images/event.png";
 
 function Projects() {
   return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="projects" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some Things I Have Built" titleNo="03" />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
