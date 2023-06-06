@@ -3,7 +3,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiBootstrap, SiPhp, SiPreact, SiLaravel, SiJavascript, SiNextdotjs } from "react-icons/si";
 import Image from 'next/image';
-import profileImg from '../public/assets/images/me.png';
+import profileImg from '../public/assets/images/aboutme.jpg';
 
 function About() {
     return (
@@ -12,22 +12,17 @@ function About() {
             <div className="flex flex-col-reverse lgl:flex-row gap-16">
                 <div className="w-full lgl:w-2/3 textBase text-textDark font-medium flex flex-col gap-4">
                     <p>
-                        Hello! My name is Marty D. Marbella and I enjoy creating things that
-                        live on the internet. My interest in web development started back in
-                        2021 when I decided to try editing custom Tumblr themes - turns out
-                        hacking together a custom reblog taught me a lot about HTML and CSS!
-                    </p>
-                    <p>
                         I recently earned my Full Stack Developer certification from KodeGo
-                        bootcamp. They instructed me in the fundamentals and more complex ideas
+                        bootcamp with an award of most active student and Best Capstone Project. 
+                        They thaught me in the fundamentals and more complex ideas
                         of front-end and back-end web programming. I gained the skills necessary
                         to build completely functional websites thanks to their instruction.
                     </p>
                     <p>
-                        Despite the fact that I have no prior experience working as a web developer,
-                        I am keen to learn more and advance my knowledge in this area. I&apos;m confident
-                        that my love of technology, along with my willpower and quick learning curve,
-                        will help me succeed in this position.
+                        Despite my lack of work experience and a degree in computer-related courses, 
+                        It doesn't bother me! I am determined and do not believe in giving up. I
+                        possess a solid foundation in development skills and have a strong desire to 
+                        continue learning and expanding my knowledge.
                     </p>
                     <p>Here are few technologies I have been working with recently:</p>
                     <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-4">

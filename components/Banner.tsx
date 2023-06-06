@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import profileImage from '../public/assets/images/about.jpg';
+import profileImage from '../public/assets/images/me.png';
+import Link from 'next/link';
 
 function Banner() {
   return (
@@ -41,15 +42,16 @@ function Banner() {
           >
             As a beginner, I am aware that there will be obstacles to overcome, but I am ready to view them as chances for improvement. I firmly believe in the value of ongoing education and practice. I can&apos;t wait to work on projects with others. I&apos;m eager to work with others as it will hasten my learning process.
           </motion.p>
-
-          <motion.button
-            initial={{ y: 10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.9 }}
-            className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-          >
-            Check out my Project!
-          </motion.button>
+          <Link href="#projects" passHref>
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+            >
+              Check out my project
+            </motion.button>
+          </Link>
         </div>
       </div>
     </section>

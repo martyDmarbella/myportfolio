@@ -114,7 +114,7 @@ const Navbar = () => {
                                 <div className='flex flex-col items-center gap-7'>
                                     <ul className='flex flex-col text-base gap-7'>
                                         <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                    cursor-pointer duration-300 nav-link' href="#home" onClick={handleScroll}>
+                                        cursor-pointer duration-300 nav-link' href="#home" onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
@@ -123,7 +123,7 @@ const Navbar = () => {
                                                 Home</motion.li>
                                         </Link>
                                         <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                cursor-pointer duration-300 nav-link'href="#about" onClick={handleScroll}>
+                                        cursor-pointer duration-300 nav-link'href="#about" onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
@@ -132,7 +132,7 @@ const Navbar = () => {
                                             </motion.li>
                                         </Link>
                                         <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                cursor-pointer duration-300 nav-link'href="#experience" onClick={handleScroll} >
+                                        cursor-pointer duration-300 nav-link'href="#experience" onClick={handleScroll} >
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
@@ -141,7 +141,7 @@ const Navbar = () => {
                                             </motion.li>
                                         </Link>
                                         <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                cursor-pointer duration-300 nav-link'href="#project" onClick={handleScroll}>
+                                        cursor-pointer duration-300 nav-link'href="#project" onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
@@ -150,7 +150,7 @@ const Navbar = () => {
                                             </motion.li>
                                         </Link>
                                         <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                cursor-pointer duration-300 nav-link'href="#contact" onClick={handleScroll}>
+                                         cursor-pointer duration-300 nav-link'href="#contact" onClick={handleScroll}>
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
@@ -165,7 +165,7 @@ const Navbar = () => {
                                             animate={{ opacity: 1 }}
                                             transition={{ delay: 0.5 }}
                                             className='px-4 py-2 rounded-md text-textGreen text[13px] border border-textGreen
-                            hover:bg-hoverColor duration-300'
+                                             hover:bg-hoverColor duration-300'
                                         >Resume
                                         </motion.button>
                                     </a>
