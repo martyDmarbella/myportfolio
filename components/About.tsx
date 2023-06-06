@@ -20,7 +20,7 @@ function About() {
                     </p>
                     <p>
                         Despite my lack of work experience and a degree in computer-related courses, 
-                        it doesn't bother me! I am determined and do not believe in giving up. I
+                        it doesn&apos;t bother me! I am determined and do not believe in giving up. I
                         possess a solid foundation in development skills and have a strong desire to 
                         continue learning and expanding my knowledge.
                     </p>
